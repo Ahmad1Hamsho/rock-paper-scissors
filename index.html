@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock-paper-scissors</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <section>
+      <form id="form1" class="form1">
+        <div id="div1">
+          <h1>In how many rounds you think you can winning?</h1>
+          <div class="radio">
+            <label for=""
+              >3<input
+                type="radio"
+                onclick="customB()"
+                value="3"
+                name="radio"
+                id="three"
+            /></label>
+            <label for=""
+              >6<input
+                type="radio"
+                onclick="customB()"
+                value="6"
+                name="radio"
+                id="six"
+            /></label>
+            <label for=""
+              >9<input
+                type="radio"
+                onclick="customB()"
+                value="9"
+                name="radio"
+                id="nine"
+            /></label>
+            <label for=""
+              >Custom<input
+                type="radio"
+                onclick="customB()"
+                name="radio"
+                id="custom"
+                value=""
+            /></label>
+          </div>
+          <input type="number" name="" id="customNum" />
+        </div>
+        <div id="div2"></div>
+      </form>
+      <section class="section2">
+        <div class="user"><h1>User</h1></div>
+        <div class="erg1">
+          <h2 id="userErg"></h2>
+          <h3>:</h3>
+          <h2 id="compErg"></h2>
+        </div>
+        <div class="comp"><h1>Comp</h1></div>
+      </section>
+      <h1 id="lets">Let's play</h1>
+    </section>
+    <section class="move" id="move">
+      <button value="0">
+        <img src="./assets/img/Hand-595b40b85ba036ed117dae08.svg" />
+      </button>
+      <button value="1">
+        <img src="./assets/img/Hand Scissors-595b40b65ba036ed117d41e0.svg" />
+      </button>
+      <button value="2">
+        <img src="./assets/img/Clenched Fist-595b40b65ba036ed117d3e01.svg" />
+      </button>
+    </section>
+    <h1>MAKE YOUR MOVE</h1>
+    <h1 class="res" onclick="ref()">restart</h1>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
