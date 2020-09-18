@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LANGUAGES>
+    <language>
+        <title> en </title>
+        <roundsMessage>In how many rounds you think you can winning?</roundsMessage>
+        <comp>Comp</comp>
+        <user>User</user>
+        <letsPlay>Let's play</letsPlay>
+        <restart>Restart</restart>
+        <youWin>You win</youWin>
+        <win>win</win>
+        <lose>Lose</lose>
+        <draw>It was a draw! You both chose </draw>
+        <rock>Rock</rock>
+        <paper>Paper</paper>
+        <scissors>Scissors</scissors>
+    </language>
+    <language>
+        <title> ar </title>
+        <roundsMessage>كم عدد الجولات التي تحتاجها للفوز؟</roundsMessage>
+        <comp>الكمبيوتر</comp>
+        <user>المستخدم</user>
+        <letsPlay>هيا نلعب</letsPlay>
+        <restart>اعادة التشغيل</restart>
+        <youWin>انت الرابح</youWin>
+        <win>ربح</win>
+        <lose>خسرت</lose>
+        <draw> لقد كان تعادل,كلاكما اخترتم </draw>
+        <rock>حجرة</rock>
+        <paper>ورقة</paper>
+        <scissors>مقص</scissors>
+    </language>
+    <language>
+        <title> de </title>
+        <roundsMessage>Wie viele Runden brauchst du, um zu gewinnen?</roundsMessage>
+        <comp>Comp</comp>
+        <user>User</user>
+        <letsPlay>Los spielen</letsPlay>
+        <restart>Restart</restart>
+        <youWin>Du bist der Gewinner</youWin>
+        <win>gewinnen</win>
+        <lose>verloren</lose>
+        <draw>Es war Gleichstand, ihr beiden habt gewählt </draw>
+        <rock>Stein</rock>
+        <paper>Papier</paper>
+        <scissors>Schere</scissors>
+    </language>
+</LANGUAGES>
